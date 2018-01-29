@@ -1,0 +1,448 @@
+html,
+body {
+    height: 100%;
+    padding: 0;
+    background-image: url(img/background.png);
+}
+
+a {
+    outline: none;
+}
+.container {
+    max-width: 1366px;
+    min-width: 600px;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+.wrapper {
+    height: 100%;
+}
+
+div {
+    display: block;
+}
+
+.contacts {
+    float: left;
+}
+
+.feedback_1 {
+    position: relative;
+    left: 1%;
+}
+
+.footer {
+    background: #ccc;
+    height: 35px;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.clr {
+    clear: both;
+}
+
+.heading {
+    color: black;
+    font-size: 18px;
+    font-weight: 400px;
+    background-color: #eaeaea;
+    border: 4px solid black;
+    text-align: center;
+}
+
+.short {
+    color: #707070;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.img {
+    outline: 4px solid darkblue;
+    width: 300px;
+    margin: 20px;
+    display: block;
+}
+
+.img:hover {
+    outline: none;
+}
+
+.full {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list > li {}
+
+.list + p {
+    color: darkgreen;
+}
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: justify;
+    font-size: 1em;
+}
+
+.main {
+    text-align: center;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+ul.menu > li {
+    float: right;
+    position: relative;
+}
+
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #5676ea;
+    text-decoration: none;
+}
+
+ul.menu > li > a:hover {
+    background-color: gray;
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: gray;
+    border: 1px solid #5676ea;
+}
+
+ul.submenu > li {
+    display: block;
+}
+
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #5676ea;
+    text-decoration: none;
+}
+
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+.menu {
+    background: #5676ea;
+}
+
+.activation {
+    list-style-image: url(img/img-for-list.png);
+    font-style: italic;
+    margin-left: 20px
+}
+
+.feedback {
+    width: 200px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+.feedback-text {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-style: italic;
+    width: 500px;
+    height: 20%;
+    min-width: 40%;
+}
+
+.feedback-text:focus {
+    background-color: #ffe;
+}
+
+.text:first-letter {
+    font-size: 30px;
+    color: darkblue;
+}
+
+.text {
+    text-align: center;
+}
+
+.table {
+    border: 1px solid #000;
+    width: 400px;
+    height: 300px;
+    border-collapse: collapse;
+}
+
+.table td {
+    border: 1px solid red;
+    padding-left: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.five {
+    background-color: green;
+}
+
+.catalog {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 250px;
+}
+
+.catalog td {
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.sreq {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 450px;
+    margin: auto;
+}
+
+.sreq td {
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.sreq tr:nth-child(2n-1) {
+    background-color: #ccc;
+}
+
+.short {
+    text-align: center;
+}
+
+.mail {
+    width: 200px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-style: italic;
+    margin-left: 6%;
+}
+
+.mail:focus {
+    background-color: #ffe;
+    color: #930;
+}
+
+.name,
+.feedback-text {
+    text-transform: capitalize;
+}
+
+.name {
+    width: 200px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+.name:focus {
+    background-color: #ffe;
+}
+
+.short:first-letter {
+    font-size: 30px;
+    color: darkblue;
+}
+
+.full:first-letter {
+    font-size: 30px;
+    color: darkblue;
+}
+
+.sys {
+    height: 40px;
+}
+
+.title {
+    font-size: 36px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+header {
+    text-align: left;
+    letter-spacing: 1px;
+    height: 8em;
+    padding: 2em 5%;
+    background: url(img/logo2.png) no-repeat 50% 50%;
+    color: #000;
+}
+
+header h1,
+header nav {
+    display: inline-block;
+}
+
+header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+header h1 {
+    height: 5%;
+    position: absolute;
+    top: 1px;
+    left: 46%;
+}
+
+header h1::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.gamename {
+    text-align: center;
+}
+
+.logo {
+    height: 6em;
+    padding: 2em 5%;
+    background: url(img/logo2.png) no-repeat 50% 50%;
+    color: #000;
+}
+
+.urok5 {
+    position: relative;
+}
+
+.kartinka1 {
+    position: relative;
+    float: left;
+    margin-left: 10%;
+    padding-right: 2%;
+}
+
+.short1 {
+    overflow: hidden;
+}
+
+.product {
+    margin-right: 5px;
+    float: left;
+    border: 2px solid darkblue;
+}
+
+.product > p {
+    text-align: center;
+}
+
+.action-btn {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin: 20px;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #112D52;
+    background: #FF5438;
+    border: 2px solid #112D52;
+    transition: .4s linear;
+}
+
+.action-btn:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 130%;
+    width: 91%;
+    border: 2px solid #112D52;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.action-btn:hover {
+    background: #112D52;
+    color: #FF5438;
+}
+
+h3.heading {
+    clear: both;
+}
+
+.feed {
+    width: 30px;
+}
+
+.tovar .block {
+    float: left;
+    margin: 2% 2.5%;
+}
+
+.block img {
+    outline: 2px solid darkblue;
+}
+
+.block img:hover {
+    background: #ffffff;
+    opacity: 0.1;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .block {
+        margin: 4% 5%;
+    }
+    
+    .menu li {
+        float: none;
+    }
+}
